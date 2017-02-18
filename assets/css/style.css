@@ -1,6 +1,10 @@
+header{
+	
+	}
 #container{
-		width: auto;
-		/*float: right;*/
+	width: auto;
+	/*float: right;*/
+	background-color: white;
 }
 #apc{
 	float: right;
@@ -47,6 +51,7 @@ body{
 	padding-top: 20px;
 	padding-right: 20px;
 	padding-bottom: 20px;
+	box-sizing: border-box;
 	/*float: left;*/
 }
 #aboutme{
@@ -58,6 +63,8 @@ body{
 	clear: both;
 	float: right;
 	background-color: white;
+	height: 200px;
+	width: 400px;
 }
 #imageContainer{
 	height: 200px;
@@ -67,12 +74,11 @@ body{
 	width: 100%;
 	height: auto;
 }
-/*#parawrap{
-	text-overflow: wrap;
-}*/
 #para{
-	text-overflow: wrap;
+	/*text-overflow: wrap;*/
 	font-size: 18px;
+	float: right;
+	text-overflow: wrap;
 
 }
 #strip{
